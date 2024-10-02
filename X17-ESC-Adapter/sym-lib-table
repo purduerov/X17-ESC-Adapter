@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "X16-ESC-Adapter-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/X16-ESC-Adapter-eagle-import.kicad_sym")(options "")(descr ""))
+)

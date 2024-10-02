@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "X16-ESC-Adapter")(type "KiCad")(uri "$(KIPRJMOD)/X16-ESC-Adapter.pretty")(options "")(descr ""))
+)
