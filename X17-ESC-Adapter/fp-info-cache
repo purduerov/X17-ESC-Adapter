@@ -1,11 +1,4 @@
-23851723926685925
-150080SS75000
-WL-SMCW_0805
-<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)
-
-0
-2
-2
+23856910367892792
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57889,13 +57882,6 @@ heatsink
 0
 0
 0
-IPS1-105-01-L-D
-SAMTEC_IPS1-105-01-L-D
-
-
-0
-10
-10
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -96788,10 +96774,45 @@ Varistor VF
 0
 2
 2
-footprints
+eye
 CONN_BM08B-SRSS-TBLFSN_JST
 
 BM08B-SRSS-TBLFSN 
+0
+10
+10
+footprints
+STA_RMCF0603_STP
+
+RMCF0603FT470R 
+0
+2
+2
+footprints
+STA_RMCF0603_STP-L
+
+RMCF0603FT470R 
+0
+2
+2
+footprints
+STA_RMCF0603_STP-M
+
+RMCF0603FT470R 
+0
+2
+2
+led
+WL-SMCW_0805
+<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0805, SMT, 2pins<Br>2x1.25x0.7mm(LXWXH)
+
+0
+2
+2
+power
+SAMTEC_IPS1-105-01-L-D
+
+
 0
 10
 10
