@@ -3966,7 +3966,7 @@
 			)
 		)
 	)
-	(global_label "ESC2C"
+	(global_label "ESC2B"
 		(shape input)
 		(at 172.72 48.26 180)
 		(fields_autoplaced yes)
@@ -4362,7 +4362,7 @@
 			)
 		)
 	)
-	(global_label "ESC2B"
+	(global_label "ESC2C"
 		(shape input)
 		(at 172.72 50.8 180)
 		(fields_autoplaced yes)
