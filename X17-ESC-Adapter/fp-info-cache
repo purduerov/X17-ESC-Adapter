@@ -1,4 +1,4 @@
-23856910367892792
+23858644593813903
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2570,13 +2570,6 @@ speaker CUI
 2
 CD54HC283
 CD54HC283
-
-
-0
-16
-16
-CD74HC283M
-SOIC127P600X175-16N
 
 
 0
@@ -54704,6 +54697,20 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Custom ROV Parts
+6-32
+Mounting Hole 3.5mm
+mounting hole 3.5mm
+0
+3
+1
+Custom ROV Parts
+Pad for ESC Adapter
+
+
+0
+1
+1
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
