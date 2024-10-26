@@ -478,6 +478,10 @@
       {
         "netclass": "Default",
         "pattern": "ESC1A"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+12V"
       }
     ]
   },

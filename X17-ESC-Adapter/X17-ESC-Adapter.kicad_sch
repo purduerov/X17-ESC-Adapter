@@ -3568,16 +3568,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 115.57) (xy 107.95 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e12045b-3f2b-4b4b-943e-ab09621fc29b")
-	)
-	(wire
-		(pts
 			(xy 135.89 95.25) (xy 143.51 95.25)
 		)
 		(stroke
@@ -3848,7 +3838,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 96.52) (xy 81.28 92.71)
+			(xy 102.87 99.06) (xy 102.87 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4338,7 +4328,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 96.52) (xy 67.31 92.71)
+			(xy 92.71 99.06) (xy 92.71 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4348,7 +4338,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 96.52) (xy 97.79 92.71)
+			(xy 113.03 99.06) (xy 113.03 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5230,7 +5220,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 96.52 0)
+		(at 102.87 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5239,7 +5229,7 @@
 		(fields_autoplaced yes)
 		(uuid "00b57186-590a-40fe-b7e7-d79bb391381d")
 		(property "Reference" "#PWR012"
-			(at 81.28 102.87 0)
+			(at 102.87 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 101.6 0)
+			(at 102.87 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,7 +5246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 96.52 0)
+			(at 102.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,7 +5255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 96.52 0)
+			(at 102.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,7 +5264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 96.52 0)
+			(at 102.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5286,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 97.79 92.71 0)
+		(at 113.03 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5305,7 +5295,7 @@
 		(fields_autoplaced yes)
 		(uuid "0af73f12-0bfd-4f2a-96bb-d9f70971e1ac")
 		(property "Reference" "#FLG01"
-			(at 97.79 90.805 0)
+			(at 113.03 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +5304,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 97.79 87.63 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,7 +5312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 92.71 0)
+			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,7 +5321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 92.71 0)
+			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5330,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 97.79 92.71 0)
+			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 219.71 102.87 0)
 			(effects
 				(font
@@ -5607,7 +5597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 220.98 111.76 0)
 			(effects
 				(font
@@ -5648,7 +5638,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 67.31 92.71 0)
+		(at 92.71 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5657,7 +5647,7 @@
 		(fields_autoplaced yes)
 		(uuid "51c2bda5-63fe-47c0-89de-408a82abd39b")
 		(property "Reference" "#FLG03"
-			(at 67.31 90.805 0)
+			(at 92.71 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5656,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 67.31 87.63 0)
+			(at 92.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 92.71 0)
+			(at 92.71 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 92.71 0)
+			(at 92.71 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5682,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 67.31 92.71 0)
+			(at 92.71 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,73 +5805,6 @@
 			(project ""
 				(path "/4ecb7723-5f96-464b-bb69-f7f22417a45a"
 					(reference "ESC5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 107.95 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56887d7c-eb2a-44f9-9c10-ccf7ee9f5c26")
-		(property "Reference" "#PWR03"
-			(at 111.76 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 104.14 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 107.95 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12898f35-f37a-455f-8cdf-4e1de101be09")
-		)
-		(instances
-			(project ""
-				(path "/4ecb7723-5f96-464b-bb69-f7f22417a45a"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6244,7 +6167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 219.71 95.25 0)
 			(effects
 				(font
@@ -6435,7 +6358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWM JST Connector"
+		(property "Value" "PWM Connector"
 			(at 128.27 110.49 0)
 			(effects
 				(font
@@ -6567,7 +6490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 219.71 87.63 0)
 			(effects
 				(font
@@ -6633,7 +6556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 175.26 95.25 0)
 			(effects
 				(font
@@ -6765,7 +6688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 175.26 102.87 0)
 			(effects
 				(font
@@ -6891,7 +6814,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 97.79 96.52 180)
+		(at 113.03 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6900,7 +6823,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad99d0eb-7820-4683-86de-a57a5cb8c45d")
 		(property "Reference" "#PWR011"
-			(at 97.79 92.71 0)
+			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +6832,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 97.79 101.6 0)
+			(at 113.03 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6917,7 +6840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 96.52 0)
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,7 +6849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 96.52 0)
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,7 +6858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 97.79 96.52 0)
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +6905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 175.26 119.38 0)
 			(effects
 				(font
@@ -7048,7 +6971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 220.98 119.38 0)
 			(effects
 				(font
@@ -7089,7 +7012,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 81.28 92.71 0)
+		(at 102.87 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7098,7 +7021,7 @@
 		(fields_autoplaced yes)
 		(uuid "b70b6fe2-479d-49d3-8d0c-f7bb44427fe3")
 		(property "Reference" "#FLG02"
-			(at 81.28 90.805 0)
+			(at 102.87 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7107,7 +7030,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 81.28 87.63 0)
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7115,7 +7038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 92.71 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,7 +7047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 92.71 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,7 +7056,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 81.28 92.71 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +7103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 175.26 87.63 0)
 			(effects
 				(font
@@ -7288,7 +7211,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 67.31 96.52 180)
+		(at 92.71 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7297,7 +7220,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5b2428e-8ef3-4226-baf4-b5b1a582caee")
 		(property "Reference" "#PWR013"
-			(at 67.31 92.71 0)
+			(at 92.71 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,7 +7229,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 67.31 101.6 0)
+			(at 92.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7314,7 +7237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 96.52 0)
+			(at 92.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,7 +7246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 96.52 0)
+			(at 92.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,7 +7255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 67.31 96.52 0)
+			(at 92.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7379,7 +7302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 220.98 127 0)
 			(effects
 				(font
@@ -7579,7 +7502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 175.26 111.76 0)
 			(effects
 				(font
@@ -7777,7 +7700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom ROV Parts:Pad for ESC Adapter"
+		(property "Footprint" "pad for esc connectors:Pad for ESC Adapter"
 			(at 175.26 127 0)
 			(effects
 				(font

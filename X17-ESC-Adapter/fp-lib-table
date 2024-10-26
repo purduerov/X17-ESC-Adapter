@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pad for esc connectors")(type "KiCad")(uri "C:/Users/mysti/Documents/PCB Design/X17-ESC-Adapter/Libraries/Custom Parts/pad for esc connectors.pretty")(options "")(descr ""))
+)
