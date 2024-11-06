@@ -1,4 +1,4 @@
-24189308684328022
+24199689582661823
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54781,6 +54781,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Custom
+PWM, 12V, GND JST Connector
+
+
+0
+30
+10
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -65239,6 +65246,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Libraries
+LUMENIER
+
+
+0
+14
+14
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -65512,6 +65526,13 @@ vibration motor Vybronics
 0
 12
 3
+Mounting Holes
+6 32 Hole
+Mounting Hole 3.5mm
+mounting hole 3.5mm
+0
+2
+1
 MountingEquipment
 DINRailAdapter_3xM3_PhoenixContact_1201578
 https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1201578&library=usen&tab=1
@@ -97964,6 +97985,20 @@ Varistor VF
 0
 2
 2
+footprints
+CONN_BM08B-SRSS-TBLFSN_JST
+
+BM08B-SRSS-TBLFSN 
+0
+10
+10
+pad for esc connectors
+6 32
+
+
+0
+0
+0
 pad for esc connectors
 Pad for ESC Adapter
 
@@ -97971,3 +98006,10 @@ Pad for ESC Adapter
 0
 1
 1
+power
+SAMTEC_IPS1-105-01-L-D
+
+
+0
+10
+10
