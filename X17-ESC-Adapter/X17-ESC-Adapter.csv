@@ -1,0 +1,8 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J3,J11,J9,J10,J1,J5,J4,J7,J12,J13,J6,J8";"Pad for ESC Adapter";12;"Pad for ESC";;;
+2;"R2";"R_0603_1608Metric";1;"1K Ω";;;
+3;"ESC2,ESC1,ESC4,ESC3";"CONN3_1824750000_WED";4;"1824750000";;;
+4;"J2";"PWM, 12V, GND JST Connector";1;"PWM Connector";;;
+5;"ESC5";"LUMENIER";1;"LUMENIER";;;
+6;"BM08B-SRSS-TBLFSN1";"CONN_BM08B-SRSS-TBLFSN_JST";1;"ESC Port";;;
+7;"D1";"D_0805_2012Metric";1;"RED LED";;;
