@@ -2231,6 +2231,39 @@
 			(solder_mask_margin 0.102)
 			(uuid "0460ef7b-652e-4506-a959-e50b1dfc9c3e")
 		)
+		(model "${KIPRJMOD}/Custom.pretty/IPS1-105-01-L-D.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Custom.pretty/IPS1-105-01-L-D.stp"
+			(offset
+				(xyz 33.02 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Custom.pretty/IPS1-105-01-L-D.stp"
+			(offset
+				(xyz -33.02 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "pad for esc connectors:Pad for ESC Adapter"
 		(layer "F.Cu")
@@ -5250,7 +5283,7 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "3a98109a-dfe3-4a91-8d45-2c2295d0ca04")
+			(uuid "596d38ae-4551-4bde-8852-9e4522f0f401")
 			(effects
 				(font
 					(size 0.512064 0.512064)
@@ -5263,7 +5296,7 @@
 			(at 0 -2.286 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "c66c1d0c-6461-4f0b-abcf-32fbe9c8472a")
+			(uuid "15b0ed13-b3e1-42a8-8d2e-67f9bbf30c4b")
 			(effects
 				(font
 					(size 0.512064 0.512064)
@@ -5320,7 +5353,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "b069944c-045d-41ee-b2a1-3ffad88e159e")
+			(uuid "0cc30f40-423a-4b44-a198-5b7a552c19cd")
 		)
 		(fp_circle
 			(center 0 0)
@@ -5331,20 +5364,20 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "836c0308-83f8-4b2d-a9d4-f790f047d221")
+			(uuid "842ae5b3-0b27-4eae-b3cb-2c07a9b2ef99")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0 180)
 			(size 3.81 3.81)
 			(drill 3.81)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "ef618814-f0d0-4125-b85a-34921ebdf9a1")
+			(uuid "773f20d0-6462-46f5-9564-46aa11de6476")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "F.Cu")
-			(uuid "b7f3a264-764a-4bfd-b87b-7e90d53acbb7")
+			(uuid "e7ac2676-261a-40df-b983-adb142bd3504")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -5399,7 +5432,7 @@
 			(net 0)
 			(net_name "")
 			(layer "B.Cu")
-			(uuid "28cc8349-9d6d-4ade-9d92-78d1b5fe7a63")
+			(uuid "74b14fa2-1861-4dc2-9a3e-069d5a6e8bd8")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)

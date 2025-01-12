@@ -494,7 +494,7 @@
       "plot": "X17-ESC-Adapter-Manufacturing/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "X17-ESC-Adapter.step",
       "svg": "",
       "vrml": ""
     },
